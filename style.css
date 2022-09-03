@@ -1,0 +1,189 @@
+#click {
+
+
+    background-color: red;
+    /* line-height: 20px;  */
+    margin-right: 100px;
+}
+
+.toggle-all {
+height: 5px;
+width: 10px;
+
+}
+
+.toggle-one
+
+ {
+
+    /* width: 25px; */
+    /* margin-right: 3px; */
+    height: 1px;
+    /* background-color: brown; */
+color: black;
+}
+
+.toggle-two
+
+ {
+
+    width: 25px;
+    /* margin-right: 3px; */
+    height:1px;
+    /* background-color: brown; */
+color: black;
+}
+
+.toggle-three
+
+ {
+border-color: brown;
+    width: 10px;
+    /* margin-right: 3px; */
+    height: 10px;
+    /* background-color: brown; */
+color: black;
+}
+
+.igbo-one {
+    margin-top: 10px;
+}
+
+.igbo {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    margin-right: 30px;
+    height: 50px;
+    /* background-color: green; */
+    margin-top: 50px;
+}
+
+.weed {
+    background-color: blueviolet;
+    /* font-size: 325px; */
+    /* width: 100%; */
+    text-decoration: purple;
+    color: peru;
+    font-family: algerian;
+    /* margin: 20px  auto; */
+    margin-top: 40px;
+    /* height: 500px; */
+}
+
+/* .weed::before {
+    font-size: 40px;
+    text-align: center;
+    content: "i am a web developer";
+}
+
+.weed::after {
+    font-size: 45PX;
+    text-align: center;
+    content: "THIS IS A SLIDE SHOW";
+} */
+
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    /* height: 600px; */
+
+}
+
+.imgone {
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.igbo{
+    display: flex;
+justify-self: flex-end;
+width: 100%;
+    
+}
+.toggle_all{
+    margin-left: 30px;
+   /* margin-top: 10px; */
+    /* outline: 2px solid ; */
+    padding: 4px;
+   text-align: center;
+    width: 30px;
+}
+
+.toggle_all .togglethree{
+    width: 29px;
+    height: 2px;
+    margin-top: 5px;
+    background-color: black;
+
+}
+
+
+.toggle_all .toggletwo{
+    width: 29px;
+    height: 2px;
+    margin-top: 5px;
+    background-color: black;
+       
+
+}
+
+
+
+
+.toggle_all .toggleone{
+    width: 29px;
+    height: 2px;
+    background-color: black;
+   
+}
+
+.toogle .toggleone{ 
+    width: 29px;
+    height: 2px;
+  transform: rotate(45deg);
+    background-color: black;
+    transform: rotate(45deg) translate(8px, -3px);
+}
+
+.toogle .toggletwo{
+    width: 29px;
+    height: 2px;
+    margin-top: 5px;
+    background-color: black;
+        transform: rotate(-45deg) translate(8px, 3px);
+
+}
+
+.toogle .togglethree{
+    width: 29px;
+    height: 2px;
+    margin-top: 5px;
+    background-color: black;
+display: none;
+}
+
+.A{
+ text-decoration: none;
+ color: black;
+}
+.navitem{
+ margin-top: 20px;
+   display: none;
+
+}
+.nav{
+    display: block;
+}
+
+@media(min-width:991px){
+    .toggle_all .togglethree , .toggle_all .toggletwo , .toggle_all .toggleone{
+    display: none;
+}
+.toggleone, .toggletwo, .togglethree{
+    display: block;
+    /* display: flex; */
+}
+}
+
